@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homnics-tailwind</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-white text-cyan-600 top-0 sticky z-10">
+        <section class="w-full mx-auto p-4 flex justify-between items-center" >
+            <h1 class="text-3xl font-medium text-black flex items-center justify-center ml-28 ">
+                <a href="#"><img src="img/logomark.png"></a>
+                <a href="#" class="pl-2">Homnics</a>
+            </h1>
+            <div>
+                <button id="hamburger-button" class="text-3xl md:hidden focus:outline-none">&#9776;</button>
+                <nav class="hidden md:block space-x-8 text-basefont-normal pr-20 ">
+                    <a href="#home" class="hover:opacity-90 space-x-8">Home</a>
+                    <a href="#about us" class="hover:opacity-90 space-x-8">About Us</a>
+                    <a href="#home" class="hover:opacity-90 space-x-8">Health Plans</a>
+                    <a href="#home" class="hover:opacity-90 space-x-8">Partners</a>
+                    <a href="#home" class="hover:opacity-90 space-x-8">Member Login</a>
+                    <button  class= "w-32 h-10 text-white bg-cyan-600 text-xl text-center rounded-lg">
+                        Get started
+                    </button>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="h-3/4 w-full">
+        <div class="w-full h-full bg-cover bg-no-repeat bg-right sm:flex flex-col" style="background-image: url('img/heroimg\ \(1\).png');">
+            <h2 class="text-6xl font-semibold text-white w-3/5 pt-20 pl-20">Feel Better About Getting Quality And Convenient Healthcare</h2>
+            <p class="text-xl font-normal text-white pt-10 pl-20 w-3/6 bg-blend-darken">At Homnics, we remove the guesswork on getting the right health care for you and your family. We offer quality and convenient access to healthcare through telemedicine and on-demand home care.</p>
+            <button class="w-44 h-12 border rounded-lg text-white ml-20 mt-10 bg-cyan-600 text-xl">Get Started</button>
+        </div>
+        </section>
+
+        <section class="w-full flex items-center justify-between ">
+            <div class="pl-28 -mt-44">
+                <h4 class="font-semibold text-2xl pt-4 w-96">Find the right doctor right at your fingertips</h4>
+                <p class="text-lg font-normal">
+                    Homnics gives the tools and information to</p>
+                    <div class="pt-6">
+                        <h5 class="font-semibold text-base"> <i class="fa-solid fa-check"></i>Build health and wellness</h5>
+                        <p class="font-normal text-xs w-3/4">Build health and wellness in your home, family, and organization.</p>
+                    </div>
+                    <div class="pt-6">
+                        <h5 class="font-semibold text-base"> <i class="fa-solid fa-check"></i>Schedule an appointment</h5>
+                        <p class="font-normal text-xs w-3/4">Schedule an appointment with a doctor or specialist
+                            that meets your needs</p>
+                    </div>
+                    <div class="pt-6">
+                        <h5 class="font-semibold text-base"> <i class="fa-solid fa-check"></i>Rate appointment</h5>
+                        <p class="font-normal text-xs w-72">Rate your appointment experience and help others
+                            make informed decisions.</p>
+                    </div>
+            </div>
+
+            <div class="flex flex-col ml-48">
+                <div class="flex border rounded-lg h-9 mb-2">
+                    <div class="pr-3 border pl-2 bg-cyan-50">@</div>
+                    <input class="pl-2 font-thin text-sm text-black" type="text" placeholder="Doctor/Hospital">
+                </div>
+                <div class="flex border rounded-lg h-9">
+                    <div class="pr-3 border pl-2 bg-cyan-50">@</div>
+                    <input class="pl-2 font-thin text-sm text-black" type="text" placeholder="Your Location">
+                </div>
+                <button class="w-48 h-14 border rounded-lg text-white mt-3 bg-cyan-600 text-xl ml-0.5"> <i class="fa-solid fa-magnifying-glass-location"></i>Search</button>
+            </div>
+
+            <div>
+                <img class="mr-40 mt-20" src="img/img2.svg">
+            </div>
+        </section>
+
+        <section>
+            <div class="flex flex-col items-center justify-between pt-4 pb3">
+                <h4 class="text-3xl font-normal">Services</h4>
+                <p>Consulting a doctor who speaks your language gives you peace of mind and contributes to better care</p>
+            </div>
+
+            <div class="max-w-7xl flex flex-row items-center justify-between mt-10 ml-40 mr-40 ">
+                <div class="w-64 h-56 bg-cyan-50 flex flex-col justify-between items-center ml-10">
+                <img class="mt-16" src="img/service.svg">
+                <h5 class="mb-10 text-lg font-normal">Consultations</h5>
+                </div>
+                <div class="w-64 h-56 bg-cyan-50 flex flex-col justify-between items-center ml-10">
+                <img class="mt-16" src="img/service (1).svg">
+                <h5 class="mb-10 text-lg font-normal">Diagnostics</h5>
+                </div>
+                <div class="w-64 h-56 bg-cyan-50 flex flex-col justify-between items-center ml-10">
+                <img class="mt-16" src="img/local_pharmacy.png">
+                <h5 class="mb-10 text-lg font-normal">Pharmacy</h5>
+                </div>
+                <div class="w-64 h-56 bg-cyan-50 flex flex-col justify-between items-center ml-10">
+                <img class="mt-16" src="img/Vector.png">
+                <h5 class="mb-10 text-lg font-normal">Hospital</h5>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="max-w-4xl h-96 rounded-2xl bg-cyan-600 text-white mt-20
+            flex flex-row items-center justify-between ml-80 mb-5">
+            <div>
+                <h6 class="text-2xl font-medium pt-8 pl-32 w-72 pb-5">Your Health, Our Priority</h6>
+                <p class="pl-32 w-72 pb-5">Always be in the know about your wellbeing, anywhere...anytime...</p>
+                <div class="ml-32 w-36 rounded-xl ">
+                <button>
+                    <img class="mb-1" src="img/hom_button.png">
+                    <img src="img/hom_button (1).png">
+                </button>
+                </div>
+            </div>
+            <img class="mr-40 mb-0" src="img/Rectangle (3).png">
+
+            </div>
+        </section>
+
+        <section>
+            <div class="w-7/12 flex items justify-between flex-col rounded-xl h-52 bg-green-100 ml-80 mt-20 mb-10">
+                <div>
+                <h4 class="flex flex-col items-center justify-between text-2xl font-semibold pl-14 pt-6">
+                    Subscribe for any news update and health tips from Homnics
+                </h4>
+                </div>
+                    
+                    <div class="">
+                        <form class="w-60 h-16 flex items-center justify-between flex-row font-light text-sm ml-64 mb-16">
+                            <input class="w-96 h-8 rounded-md" type="email" placeholder="Enter your email">
+                            <button class="w-52 ml-2 h-8 bg-cyan-600 text-white rounded-lg">Subscribe</button>
+
+                        </form>
+                    </div>
+              </div>    
+    </main>
+
+        <section class="w-full grid grid-flow-col justify-between gap-3 pl-44 pr-52 pt-16">
+            <div class="grid grid-flow-row justify-between ">
+                <h4 class="text-lg font-medium">COMPANY</h4>
+                <a class="pl-1 mt-3" href="#">Home</a>
+                <a class="pl-1 mt-3" href="#">About Us</a>
+                <a class="pl-1 mt-3" href="#">Health Plans</a>
+                <a class="pl-1 mt-3" href="#">FAQs</a>
+                <a class="pl-1 mt-3" href="#">Private Policy</a>
+            </div>
+            <div class="grid grid-flow-row justify-between">
+                <h4 class="text-lg font-medium">FOR PATIENTS</h4>
+                <a class="pl-1 -mt-20" href="#">Login/Signup</a>
+            </div>
+            <div class="grid grid-flow-row justify-between">
+                <h4 class="text-lg font-medium">FOR HEALTHCARE PROVIDERS</h4>
+                <a class="pl-1 -mt-20" href="#">Login/Signup</a>
+            </div>
+            <div class="grid grid-flow-row justify-between ">
+                <h4 class="text-lg font-medium">FOR ORGANISATIONS</h4>
+                <a class="pl-1 -mt-14" href="#">Login/Signup</a>
+                <a class="pl-1 -mt-20" href="#">Partner with us</a>
+               
+            </div>
+            <div class="grid grid-flow-row justify-between">
+                <h4 class="text-lg font-medium">CONTACT</h4>
+                <a class="pl-1 -mt-20" href="#">support@homnics.com</a>
+
+        </section>
+        
+        <p class="text-center pt-8 pb-16 font-extralight text-base">© 2023 Homnics. All rights reserved.</p>
+</body>
+</html>
